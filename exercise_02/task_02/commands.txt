@@ -9,3 +9,15 @@ a) verschiebt Dateien oder benennt sie um
 b) /bin/mv
 c) mv text.doc Documents
 d) rename()
+
+chmod:
+a) ändert die Berechtigungen einer Datei oder eines Verzeichnisses
+b) /bin/chmod
+c) chmod 700 Documents
+d) fchmod()
+
+chown:
+a) ändert den Besitzer und Gruppe einer Datei
+b) /bin/chown
+c) chown ametz text.doc
+d) fchown()
