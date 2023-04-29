@@ -27,3 +27,15 @@ a) erstellt eine leeres Verzeichnis
 b) /bin/mkdir
 c) mkdir NewDirectory
 d) mkdir()
+
+rmdir:
+a) löscht ein leeres Verzeichnis
+b) /bin/rmdir
+c) rmdir NewDirectory
+d) rmdir()
+
+kill:
+a) sendet ein Signal an einen Prozess
+b) /bin/kill
+c) kill -15 909808
+d) kill()
