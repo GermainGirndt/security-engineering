@@ -1,0 +1,11 @@
+rm:
+a) löscht Dateien, aber standartmäßig keine Directories
+b) /bin/rm
+c) rm text.doc
+d) unlink()
+
+mv:
+a) verschiebt Dateien oder benennt sie um
+b) /bin/mv
+c) mv text.doc Documents
+d) rename()
