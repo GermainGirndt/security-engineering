@@ -39,3 +39,21 @@ a) sendet ein Signal an einen Prozess
 b) /bin/kill
 c) kill -15 909808
 d) kill()
+
+ln:
+a) erstellt einen Link zu einer Datei
+b) /bin/ln
+c) ln text.doc link
+d) link()
+
+sleep:
+a) pausiert die Shell
+b) /bin/sleep
+c) sleep 10
+d) nanosleep()
+
+wget:
+a) lädt Dateien von Servern herunter
+b) /bin/wget
+c) wget https://moodle.htwsaar.de/pluginfile.php/211858/mod_resource/content/1/uebung02.pdf
+d) write()
