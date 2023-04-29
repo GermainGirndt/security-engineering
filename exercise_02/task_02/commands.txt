@@ -21,3 +21,9 @@ a) ändert den Besitzer und Gruppe einer Datei
 b) /bin/chown
 c) chown ametz text.doc
 d) fchown()
+
+mkdir:
+a) erstellt eine leeres Verzeichnis
+b) /bin/mkdir
+c) mkdir NewDirectory
+d) mkdir()
