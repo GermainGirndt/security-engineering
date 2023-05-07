@@ -1,0 +1,53 @@
+File '/tmp/.X11-unix/X0' does not exist
+
+1
+File: /dev/random
+File type: Character device
+User: root (UID: 0), Group: wheel (GID: 0)
+Access permissions: 666
+Last access time: Sun May  7 08:18:14 2023
+Last inode change time: Sun May  7 10:14:13 2023
+Last modification time: Sun May  7 10:14:13 2023
+Creation time: Thu Jan  1 01:00:00 1970
+
+2
+File: /bin/sh
+File type: Regular file
+User: root (UID: 0), Group: wheel (GID: 0)
+Access permissions: 755
+Last access time: Sat Apr  1 18:46:50 2023
+Last inode change time: Sat Apr  1 18:46:50 2023
+Last modification time: Sat Apr  1 18:46:50 2023
+Creation time: Sat Apr  1 18:46:50 2023
+
+3
+File: /usr/bin/tar
+File type: Symbolic link
+User: root (UID: 0), Group: wheel (GID: 0)
+Access permissions: 755
+Last access time: Sat Apr  1 18:46:50 2023
+Last inode change time: Sat Apr  1 18:46:50 2023
+Last modification time: Sat Apr  1 18:46:50 2023
+Creation time: Sat Apr  1 18:46:50 2023
+
+4
+File: /var/spool
+File type: Directory
+User: root (UID: 0), Group: wheel (GID: 0)
+Access permissions: 755
+Last access time: Sat Apr  1 18:46:50 2023
+Last inode change time: Sat Apr 15 14:52:42 2023
+Last modification time: Sat Apr  1 18:46:50 2023
+Creation time: Sat Apr  1 18:46:50 2023
+
+5
+File: /etc/services
+File type: Regular file
+User: root (UID: 0), Group: wheel (GID: 0)
+Access permissions: 644
+Last access time: Sat Apr  1 18:46:50 2023
+Last inode change time: Sat Apr 15 14:52:42 2023
+Last modification time: Sat Apr  1 18:46:50 2023
+Creation time: Sat Apr  1 18:46:50 2023
+
+6

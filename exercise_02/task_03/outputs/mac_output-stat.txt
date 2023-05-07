@@ -1,0 +1,41 @@
+  File: "/dev/random"
+  Size: 0            FileType: Character Device
+  Mode: (0666/crw-rw-rw-)         Uid: (    0/    root)  Gid: (    0/   wheel)
+Device: 139,814574   Inode: 610    Links: 1
+Access: Sun May  7 08:18:14 2023
+Modify: Sun May  7 10:14:13 2023
+Change: Sun May  7 10:14:13 2023
+ Birth: Thu Jan  1 01:00:00 1970
+  File: "/bin/sh"
+  Size: 134000       FileType: Regular File
+  Mode: (0755/-rwxr-xr-x)         Uid: (    0/    root)  Gid: (    0/   wheel)
+Device: 1,18   Inode: 1152921500312435842    Links: 1
+Access: Sat Apr  1 18:46:50 2023
+Modify: Sat Apr  1 18:46:50 2023
+Change: Sat Apr  1 18:46:50 2023
+ Birth: Sat Apr  1 18:46:50 2023
+  File: "/usr/bin/tar"
+  Size: 6            FileType: Symbolic Link
+  Mode: (0755/lrwxr-xr-x)         Uid: (    0/    root)  Gid: (    0/   wheel)
+Device: 1,18   Inode: 1152921500312437313    Links: 1
+Access: Sat Apr  1 18:46:50 2023
+Modify: Sat Apr  1 18:46:50 2023
+Change: Sat Apr  1 18:46:50 2023
+ Birth: Sat Apr  1 18:46:50 2023
+  File: "/var/spool"
+  Size: 192          FileType: Directory
+  Mode: (0755/drwxr-xr-x)         Uid: (    0/    root)  Gid: (    0/   wheel)
+Device: 1,18   Inode: 17160905    Links: 6
+Access: Sat Apr  1 18:46:50 2023
+Modify: Sat Apr  1 18:46:50 2023
+Change: Sat Apr 15 14:52:42 2023
+ Birth: Sat Apr  1 18:46:50 2023
+  File: "/etc/services"
+  Size: 677977       FileType: Regular File
+  Mode: (0644/-rw-r--r--)         Uid: (    0/    root)  Gid: (    0/   wheel)
+Device: 1,18   Inode: 17160880    Links: 1
+Access: Sat Apr  1 18:46:50 2023
+Modify: Sat Apr  1 18:46:50 2023
+Change: Sat Apr 15 14:52:42 2023
+ Birth: Sat Apr  1 18:46:50 2023
+stat: /tmp/.X11-unix/X0: stat: No such file or directory
