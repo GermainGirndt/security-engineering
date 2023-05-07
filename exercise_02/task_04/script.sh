@@ -52,14 +52,16 @@ echo "Length: "
 echo $len_cut_string
 echo "------------------"
 
-# Better alternative (but not asked by the task): Exchanging sed and cut (Needs to alter the offset to 1)
-# echo "Cutting..."
-# cut_string=$(echo $original_command | sed -e "s/ //g" | cut -c "$CUT_START-$CUT_END")
-# echo $cut_string
-# len_cut_string=$(echo $cut_string | wc -c)
-# echo $len_cut_string
 
 echo
 echo "Creating the hash as Alice did for the key: $cut_string"
 openssl dgst -sha256 -mac HMAC -macopt "hexkey:$cut_string" /etc/services
 echo
+
+# Note:
+# Better alternative (but not allowed by the task): Exchanging sed and cut (No need to count number of spaces in the offset)
+# echo "Cutting..."
+# cut_string=$(echo $original_command | sed -e "s/ //g" | cut -c "$CUT_START-$CUT_END")
+# echo $cut_string
+# len_cut_string=$(echo $cut_string | wc -c)
+# echo $len_cut_string
