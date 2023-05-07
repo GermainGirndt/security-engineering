@@ -10,8 +10,10 @@ ln -s test_file test_soft_link
 tar -cf archiv_file_and_hard_link.tar test_file test_hard_link
 tar -cf archiv_file_and_softlink.tar test_file test_soft_link
 
-echo "Comparing archives:"
-ls -la archiv*
 
 echo "Comparing files:"
 ls -la test*
+
+# No difference in size
+echo "Comparing archives:"
+ls -la archiv*
