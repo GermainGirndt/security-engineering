@@ -2,37 +2,37 @@ rm:
 a) löscht Dateien, aber standartmäßig keine Directories
 b) /bin/rm
 c) rm text.doc
-d) unlink()
+d) unlink() [löscht File] und rmdir() [löscht leeres Verzeichnis]
 
 mv:
-a) verschiebt Dateien oder benennt sie um
+a) verschiebt File/Verzeichnis oder benennt sie um
 b) /bin/mv
-c) mv text.doc Documents
-d) rename()
+c) mv text.doc document.txt
+d) rename() [umbennt/verschiebt File/Directory] und link()
 
 chmod:
 a) ändert die Berechtigungen einer Datei oder eines Verzeichnisses
 b) /bin/chmod
-c) chmod 700 Documents
-d) fchmod()
+c) chmod 700 document.txt
+d) chmod() [file/directory] und fchmod() [file descriptor]
 
 chown:
-a) ändert den Besitzer und Gruppe einer Datei
+a) ändert das Eigentum (Besitzer/Gruppe) einer Datei
 b) /bin/chown
 c) chown ametz text.doc
-d) fchown()
+d) chown() [file/directory] und fchown() [file descriptor]
 
 mkdir:
 a) erstellt eine leeres Verzeichnis
 b) /bin/mkdir
 c) mkdir NewDirectory
-d) mkdir()
+d) mkdir() und mkdirat() [new directory relative to a specified directory file descriptor]
 
 rmdir:
 a) löscht ein leeres Verzeichnis
 b) /bin/rmdir
 c) rmdir NewDirectory
-d) rmdir()
+d) rmdir() und unlinkat() [muss nicht leer sein]
 
 kill:
 a) sendet ein Signal an einen Prozess
@@ -44,13 +44,13 @@ ln:
 a) erstellt einen Link zu einer Datei
 b) /bin/ln
 c) ln text.doc link
-d) link()
+d) link() [hard link] und symlink() [soft link]
 
 sleep:
 a) pausiert die Shell
 b) /bin/sleep
 c) sleep 10
-d) nanosleep()
+d) sleep() [secs] und nanosleep() [nano sec]
 
 wget:
 a) lädt Dateien von Servern herunter
