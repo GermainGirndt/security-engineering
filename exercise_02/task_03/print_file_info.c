@@ -101,7 +101,7 @@ void print_file_info(const char *filename)
         // ENOENT is set, when the file does not exist
         if (errno == ENOENT)
         {
-            fprintf(stderr, "File '%s' does not exist\n", filename);
+            fprintf(stderr, "File '%s' does not exist\n\n", filename);
         }
         else
         {
@@ -143,6 +143,7 @@ int main(int argc, char *argv[])
     // Print information for each specified file
     for (int i = 1; i < argc; i++)
     {
+        printf("%d\n", i);
         print_file_info(argv[i]);
     }
 
