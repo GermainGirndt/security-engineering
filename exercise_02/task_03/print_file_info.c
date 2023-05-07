@@ -15,34 +15,59 @@ void print_file_type(mode_t mode)
 {
     if (S_ISLNK(mode))
     {
+        // Represents a symbolic link file
+        // A symbolic link is a special type of file that acts as a pointer to another file or directory.
+        // It contains the path or location of the target file, allowing for easy file referencing and management.
         printf("File type: Symbolic link\n");
     }
     else if (S_ISREG(mode))
     {
+        // Represents a regular file
+        // A regular file is a common type of file that stores data in a plain or binary format.
+        // It can contain text, images, executable code, or any other type of data.
+        printf("File type: Regular file\n");
         printf("File type: Regular file\n");
     }
     else if (S_ISDIR(mode))
     {
+        // Represents a directory
+        // A directory is a special type of file that stores a list of file names and their corresponding inodes.
+        // It is used to organize and structure files into a hierarchical filesystem.
         printf("File type: Directory\n");
     }
     else if (S_ISFIFO(mode))
     {
+        // Represents a named pipe(FIFO)
+        // A named pipe, also known as a FIFO (First-In, First-Out), is a special file that provides interprocess communication.
+        // It allows two or more processes to communicate by writing and reading data in a sequential order.
         printf("File type: Pipe\n");
     }
     else if (S_ISSOCK(mode))
     {
+        // Represents a socket file
+        // A socket is a special file that enables communication between processes over a network or locally within the same system.
+        // It provides a mechanism for interprocess communication by establishing connections and exchanging data.
         printf("File type: Socket\n");
     }
     else if (S_ISCHR(mode))
     {
+        // Represents a character device file
+        // A character device file represents a device that is accessed as a stream of characters or bytes.
+        // It provides a way to communicate with hardware devices that transfer data character by character.
         printf("File type: Character device\n");
     }
     else if (S_ISBLK(mode))
     {
+        // Represents a block device file
+        // A block device file represents a device that is accessed in fixed-size blocks or sectors.
+        // It is typically used for storage devices such as hard drives and SSDs.
         printf("File type: Block device\n");
     }
     else
     {
+        // Represents an unknown file type
+        // This case is executed when none of the previous file type checks match the mode.
+        // It indicates that the file type is not recognized or supported by the program.
         printf("File type: Unknown\n");
     }
 }
