@@ -1,0 +1,30 @@
+Hexadecimal numbers needed:
+32
+Cut start:
+9
+Cut end with offset:
+43
+------------------
+Original Command Output:
+0000000 327b0324 c6012e43 5e21fa7a 75c6bbf0
+Length:
+44
+
+Command without spaces:
+0000000327b0324c6012e435e21fa7a75c6bbf0
+Length:
+40
+
+Number of spaces:
+4
+------------------
+
+Cutted string:
+327b0324c6012e435e21fa7a75c6bbf0
+Length: 
+33
+------------------
+
+Creating the hash as Alice did for the key: 327b0324c6012e435e21fa7a75c6bbf0
+HMAC-SHA256(/etc/services)= 1266be36700dcd3509b5edbadddce54e4e3fea694426fa490be5780f60a37718
+
