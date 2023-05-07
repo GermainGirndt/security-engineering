@@ -26,7 +26,6 @@ void print_file_type(mode_t mode)
         // A regular file is a common type of file that stores data in a plain or binary format.
         // It can contain text, images, executable code, or any other type of data.
         printf("File type: Regular file\n");
-        printf("File type: Regular file\n");
     }
     else if (S_ISDIR(mode))
     {
