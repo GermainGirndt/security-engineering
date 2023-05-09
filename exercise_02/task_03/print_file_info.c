@@ -160,6 +160,8 @@ void print_file_info(const char *filename)
     print_time("Last inode change time", file_info.st_ctime);
     print_time("Last modification time", file_info.st_mtime);
 
+// #ifdef __APPLE__ is a preprocessor directive in the C programming language.
+// Conditionally compiles specific code based on the target platform being Apple's macOS.
 #ifdef __APPLE__
     // Print the creation time (for macOS)
     print_time("Creation time", file_info.st_birthtime);
