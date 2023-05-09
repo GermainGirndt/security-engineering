@@ -8,9 +8,13 @@
 #include <stdlib.h>
 #include <errno.h>
 
+//  Defining macro representing the bitmask for extracting the file access permissions.
+//  The file permission flags (S_IRWXU, S_IRWXG, and S_IRWXO) are defined in sys/stat.h
+// user, group and other permissions
 #define ACCESS_PERMISSIONS_MASK (S_IRWXU | S_IRWXG | S_IRWXO)
 
 // Print the file type based on the mode
+// predicator interface provided by the sys/stat header
 void print_file_type(mode_t mode)
 {
     if (S_ISLNK(mode))
@@ -39,6 +43,7 @@ void print_file_type(mode_t mode)
         // Represents a named pipe(FIFO)
         // A named pipe, also known as a FIFO (First-In, First-Out), is a special file that provides interprocess communication.
         // It allows two or more processes to communicate by writing and reading data in a sequential order.
+        // Example file: /var/log/myapp.log.pipe (a named pipe used for logging in a custom application)
         printf("File type: Pipe\n");
     }
     else if (S_ISSOCK(mode))
@@ -46,6 +51,7 @@ void print_file_type(mode_t mode)
         // Represents a socket file
         // A socket is a special file that enables communication between processes over a network or locally within the same system.
         // It provides a mechanism for interprocess communication by establishing connections and exchanging data.
+        // Example file: /var/run/myservice.sock (a Unix domain socket file used for communication with a service)
         printf("File type: Socket\n");
     }
     else if (S_ISCHR(mode))
@@ -53,6 +59,7 @@ void print_file_type(mode_t mode)
         // Represents a character device file
         // A character device file represents a device that is accessed as a stream of characters or bytes.
         // It provides a way to communicate with hardware devices that transfer data character by character.
+        // Example file: /dev/null (a character device file representing the null device)
         printf("File type: Character device\n");
     }
     else if (S_ISBLK(mode))
@@ -60,6 +67,7 @@ void print_file_type(mode_t mode)
         // Represents a block device file
         // A block device file represents a device that is accessed in fixed-size blocks or sectors.
         // It is typically used for storage devices such as hard drives and SSDs.
+        // Example file: /dev/sdb1 (a block device file representing a partition on a secondary storage device)
         printf("File type: Block device\n");
     }
     else
@@ -72,11 +80,14 @@ void print_file_type(mode_t mode)
 }
 
 // Print the user and group information
+// types uid_t and git_t provided by the unistd header
 void print_user_group(uid_t uid, gid_t gid)
 {
     // retrives user information (pw = password, which is historically an user related struct)
+    // passwd struct provided by the pwd header
     struct passwd *pw = getpwuid(uid);
     // retrivers group information
+    // group struct provided by the grp header
     struct group *gr = getgrgid(gid);
     if (pw != NULL && gr != NULL)
     {
@@ -98,12 +109,15 @@ void print_access_permissions(mode_t mode)
 }
 
 // Print the time based on the provided label
+// time_t provided by the time header
 void print_time(const char *label, time_t timestamp)
 {
+    // ctime_t provided by the time header
     char *timeString = ctime(&timestamp);
     if (timeString != NULL)
     {
         // Remove the newline character from the end of the string
+        // strlen provided by the string header
         timeString[strlen(timeString) - 1] = '\0';
         printf("%s: %s\n", label, timeString);
     }
@@ -119,6 +133,7 @@ void print_file_info(const char *filename)
     struct stat file_info;
 
     // Retrieve file information and populate the file_info structure
+    // lstat is defined by the sys/stat header
     if (lstat(filename, &file_info) == -1)
     {
         // errorno is the global integer variable set by certain library functions, defined in the errorno.h header
