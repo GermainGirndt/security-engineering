@@ -105,6 +105,7 @@ void print_access_permissions(mode_t mode)
 {
     // A macro ACCESS_PERMISSIONS_MASK is defined to represent the bitmask for extracting the file access permissions.
     // A macro in C is a preprocessor directive that defines a symbolic name or a function-like construct. It is a way to perform text substitution in the code before the actual compilation takes place
+    // %o converts to the octal system
     printf("Access permissions: %o\n", mode & ACCESS_PERMISSIONS_MASK);
 }
 
