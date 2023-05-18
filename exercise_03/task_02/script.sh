@@ -1,3 +1,5 @@
+#!/bin/sh
+
 URL=https://de.wikipedia.org/wiki/Fußball-Bundesliga_2022/23
 
 #wget $URL -O page.html
