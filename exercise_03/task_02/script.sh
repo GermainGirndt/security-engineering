@@ -14,8 +14,7 @@ formatted_table=$(echo "$table" | sed 's/th/td/g')
 
 lines_with_place_and_teams=$(echo "$formatted_table"  | grep -Ezo '<td style="text-align:center;">.*\d\d?\.\n+</td>''|''<a href="/wiki/[^"]+" title="[^"]+">[^<]+</a>' ) 
 
-echo "$lines_with_place_and_teams" | sed  's/&#x2002;//g' | sed -E 's/<[^>]*>//g' | tr '\n' ' ' 
-
+echo "$lines_with_place_and_teams" | sed  's/&#x2002;//g' | sed -E 's/<[^>]*>//g' 
 
 
 
