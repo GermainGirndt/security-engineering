@@ -1,54 +1,18 @@
-1.
-
-FC Bayern München
-2.
-
-Borussia Dortmund
-3.
-
-RB Leipzig
-4.
-
-1. FC Union Berlin
-5.
-
-SC Freiburg
-6.
-
-VfL Wolfsburg
-7.
-
-Bayer 04 Leverkusen
-8.
-
-Eintracht Frankfurt
-9.
-
-1. FSV Mainz 05
-10.
-
-1. FC Köln
-11.
-
-Borussia Mönchengladbach
-12.
-
-Werder Bremen
-13.
-
-FC Augsburg
-14.
-
-TSG 1899 Hoffenheim
-15.
-
-VfL Bochum
-16.
-
-FC Schalke 04
-17.
-
-VfB Stuttgart
-18.
-
-Hertda BSC
+1. FC Bayern München
+2. Borussia Dortmund
+3. RB Leipzig
+4. 1. FC Union Berlin
+5. SC Freiburg
+6. VfL Wolfsburg
+7. Bayer 04 Leverkusen
+8. Eintracht Frankfurt
+9. 1. FSV Mainz 05
+10. 1. FC Köln
+11. Borussia Mönchengladbach
+12. Werder Bremen
+13. FC Augsburg
+14. TSG 1899 Hoffenheim
+15. VfL Bochum
+16. FC Schalke 04
+17. VfB Stuttgart
+18. Hertda BSC
