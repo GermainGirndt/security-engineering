@@ -1,6 +1,6 @@
 URL=https://de.wikipedia.org/wiki/Fußball-Bundesliga_2022/23
 
-#wget $URL -O page.html
+wget $URL -O page.html
 
 line_where_table_begins=$(cat page.html | head --lines=500 | egrep -n "<table class.*wikitable sortable.*" | cut -d ":" -f 1)
 line_where_table_ends=$(cat page.html | head --lines=1200 | egrep -n "</th></tr></tbody></table>" | cut -d ":" -f 1)
