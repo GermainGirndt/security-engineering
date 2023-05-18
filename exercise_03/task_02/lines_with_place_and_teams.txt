@@ -1,0 +1,54 @@
+<td style="text-align:center;">&#x2002;1.
+</td>
+<a href="/wiki/FC_Bayern_M%C3%BCnchen" title="FC Bayern München">FC Bayern München</a>
+<td style="text-align:center;">&#x2002;2.
+</td>
+<a href="/wiki/Borussia_Dortmund" title="Borussia Dortmund">Borussia Dortmund</a>
+<td style="text-align:center;">&#x2002;3.
+</td>
+<a href="/wiki/RB_Leipzig" title="RB Leipzig">RB Leipzig</a>
+<td style="text-align:center;">&#x2002;4.
+</td>
+<a href="/wiki/1._FC_Union_Berlin" title="1. FC Union Berlin">1. FC Union Berlin</a>
+<td style="text-align:center;">&#x2002;5.
+</td>
+<a href="/wiki/SC_Freiburg" title="SC Freiburg">SC Freiburg</a>
+<td style="text-align:center;">&#x2002;6.
+</td>
+<a href="/wiki/VfL_Wolfsburg" title="VfL Wolfsburg">VfL Wolfsburg</a>
+<td style="text-align:center;">&#x2002;7.
+</td>
+<a href="/wiki/Bayer_04_Leverkusen" title="Bayer 04 Leverkusen">Bayer 04 Leverkusen</a>
+<td style="text-align:center;">&#x2002;8.
+</td>
+<a href="/wiki/Eintracht_Frankfurt" title="Eintracht Frankfurt">Eintracht Frankfurt</a>
+<td style="text-align:center;">&#x2002;9.
+</td>
+<a href="/wiki/1._FSV_Mainz_05" title="1. FSV Mainz 05">1. FSV Mainz 05</a>
+<td style="text-align:center;">10.
+</td>
+<a href="/wiki/1._FC_K%C3%B6ln" title="1. FC Köln">1. FC Köln</a>
+<td style="text-align:center;">11.
+</td>
+<a href="/wiki/Borussia_M%C3%B6nchengladbach" title="Borussia Mönchengladbach">Borussia Mönchengladbach</a>
+<td style="text-align:center;">12.
+</td>
+<a href="/wiki/Werder_Bremen" title="Werder Bremen">Werder Bremen</a>
+<td style="text-align:center;">13.
+</td>
+<a href="/wiki/FC_Augsburg" title="FC Augsburg">FC Augsburg</a>
+<td style="text-align:center;">14.
+</td>
+<a href="/wiki/TSG_1899_Hoffenheim" title="TSG 1899 Hoffenheim">TSG 1899 Hoffenheim</a>
+<td style="text-align:center;">15.
+</td>
+<a href="/wiki/VfL_Bochum" title="VfL Bochum">VfL Bochum</a>
+<td style="text-align:center;">16.
+</td>
+<a href="/wiki/FC_Schalke_04" title="FC Schalke 04">FC Schalke 04</a>
+<td style="text-align:center;">17.
+</td>
+<a href="/wiki/VfB_Stuttgart" title="VfB Stuttgart">VfB Stuttgart</a>
+<td style="text-align:center;">18.
+</td>
+<a href="/wiki/Hertda_BSC" title="Hertda BSC">Hertda BSC</a>
