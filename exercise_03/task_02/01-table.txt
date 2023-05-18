@@ -1,0 +1,373 @@
+<table class="wikitable sortable" style="text-align:center; white-space:nowrap;">
+
+
+<tbody><tr class="hintergrundfarbe5">
+<th style="width:4ex"><span class="explain" title="Platzierung">Pl.</span>
+</th>
+<th style="width:25ex">Verein
+</th>
+<th style="width:4ex"><span class="explain" title="Spiele">Sp.</span>
+</th>
+<th style="width:3ex"><span class="explain" title="Siege">S</span>
+</th>
+<th style="width:3ex"><span class="explain" title="Unentschieden">U</span>
+</th>
+<th style="width:3ex"><span class="explain" title="Niederlagen">N</span></th>
+<th style="width:5ex"><span class="explain" title="Torverhältnis">Tore</span>
+</th>
+<th style="width:5ex"><span class="explain" title="Tordifferenz">Diff.</span>
+</th>
+<th style="width:5ex">Punkte</th>
+<th>Anm.
+</th></tr>
+<tr style="background:#ccffcc;">
+<td style="text-align:center;">&#x2002;1.
+</td>
+<td style="text-align:left"><a href="/wiki/FC_Bayern_M%C3%BCnchen" title="FC Bayern München">FC Bayern München</a> (M)
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;32
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;20
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;8
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;4
+</td>
+<td style="text-align:center;"><span style="visibility:hidden;">0</span>89:34<span style="visibility:hidden;">0</span>
+</td>
+<td style="text-align:center;">&#43;55
+</td>
+<td style="text-align:center;">68</td>
+<td>M/CL
+</td></tr>
+<tr style="background:#ccccff;">
+<td style="text-align:center;">&#x2002;2.
+</td>
+<td style="text-align:left"><a href="/wiki/Borussia_Dortmund" title="Borussia Dortmund">Borussia Dortmund</a>
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;32
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;21
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;4
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;7
+</td>
+<td style="text-align:center;"><span style="visibility:hidden;">0</span>78:42<span style="visibility:hidden;">0</span>
+</td>
+<td style="text-align:center;">&#43;36
+</td>
+<td style="text-align:center;">67</td>
+<td rowspan="3">CL
+</td></tr>
+<tr style="background:#ccccff;">
+<td style="text-align:center;">&#x2002;3.
+</td>
+<td style="text-align:left"><a href="/wiki/RB_Leipzig" title="RB Leipzig">RB Leipzig</a> (P)
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;32
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;18
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;6
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;8
+</td>
+<td style="text-align:center;"><span style="visibility:hidden;">0</span>57:38<span style="visibility:hidden;">0</span>
+</td>
+<td style="text-align:center;">&#43;19
+</td>
+<td style="text-align:center;">60
+</td></tr>
+<tr style="background:#ccccff;">
+<td style="text-align:center;">&#x2002;4.
+</td>
+<td style="text-align:left"><a href="/wiki/1._FC_Union_Berlin" title="1. FC Union Berlin">1. FC Union Berlin</a>
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;32
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;17
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;8
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;7
+</td>
+<td style="text-align:center;"><span style="visibility:hidden;">0</span>48:34<span style="visibility:hidden;">0</span>
+</td>
+<td style="text-align:center;">&#43;14
+</td>
+<td style="text-align:center;">59
+</td></tr>
+<tr style="background:#ffc7a3;">
+<td style="text-align:center;">&#x2002;5.
+</td>
+<td style="text-align:left"><a href="/wiki/SC_Freiburg" title="SC Freiburg">SC Freiburg</a>
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;32
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;16
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;8
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;8
+</td>
+<td style="text-align:center;"><span style="visibility:hidden;">0</span>48:42<span style="visibility:hidden;">0</span>
+</td>
+<td style="text-align:center;">&#x2002;&#43;6
+</td>
+<td style="text-align:center;">56</td>
+<td>EL
+</td></tr>
+<tr style="background:#ffdac2;">
+<td style="text-align:center;">&#x2002;6.
+</td>
+<td style="text-align:left"><a href="/wiki/VfL_Wolfsburg" title="VfL Wolfsburg">VfL Wolfsburg</a>
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;32
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;13
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;10
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;9
+</td>
+<td style="text-align:center;"><span style="visibility:hidden;">0</span>56:44<span style="visibility:hidden;">0</span>
+</td>
+<td style="text-align:center;">&#43;12
+</td>
+<td style="text-align:center;">49</td>
+<td>(ECL)
+</td></tr>
+<tr style="background:#ffffff;">
+<td style="text-align:center;">&#x2002;7.
+</td>
+<td style="text-align:left"><a href="/wiki/Bayer_04_Leverkusen" title="Bayer 04 Leverkusen">Bayer 04 Leverkusen</a>
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;32
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;14
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;7
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;11
+</td>
+<td style="text-align:center;"><span style="visibility:hidden;">0</span>55:44<span style="visibility:hidden;">0</span>
+</td>
+<td style="text-align:center;">&#43;11
+</td>
+<td style="text-align:center;">49
+</td></tr>
+<tr style="background:#ffffff;">
+<td style="text-align:center;">&#x2002;8.
+</td>
+<td style="text-align:left"><a href="/wiki/Eintracht_Frankfurt" title="Eintracht Frankfurt">Eintracht Frankfurt</a>
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;32
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;12
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;10
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;10
+</td>
+<td style="text-align:center;"><span style="visibility:hidden;">0</span>54:49<span style="visibility:hidden;">0</span>
+</td>
+<td style="text-align:center;">&#x2002;&#43;5
+</td>
+<td style="text-align:center;">46
+</td></tr>
+<tr style="background:#ffffff;">
+<td style="text-align:center;">&#x2002;9.
+</td>
+<td style="text-align:left"><a href="/wiki/1._FSV_Mainz_05" title="1. FSV Mainz 05">1. FSV Mainz 05</a>
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;32
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;12
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;9
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;11
+</td>
+<td style="text-align:center;"><span style="visibility:hidden;">0</span>51:49<span style="visibility:hidden;">0</span>
+</td>
+<td style="text-align:center;">&#x2002;&#43;2
+</td>
+<td style="text-align:center;">45
+</td></tr>
+<tr style="background:#ffffff;">
+<td style="text-align:center;">10.
+</td>
+<td style="text-align:left"><a href="/wiki/1._FC_K%C3%B6ln" title="1. FC Köln">1. FC Köln</a>
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;32
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;10
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;11
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;11
+</td>
+<td style="text-align:center;"><span style="visibility:hidden;">0</span>47:51<span style="visibility:hidden;">0</span>
+</td>
+<td style="text-align:center;">&#x2002;−4
+</td>
+<td style="text-align:center;">41
+</td></tr>
+<tr style="background:#ffffff;">
+<td style="text-align:center;">11.
+</td>
+<td style="text-align:left"><a href="/wiki/Borussia_M%C3%B6nchengladbach" title="Borussia Mönchengladbach">Borussia Mönchengladbach</a>
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;32
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;10
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;9
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;13
+</td>
+<td style="text-align:center;"><span style="visibility:hidden;">0</span>48:53<span style="visibility:hidden;">0</span>
+</td>
+<td style="text-align:center;">&#x2002;−5
+</td>
+<td style="text-align:center;">39
+</td></tr>
+<tr style="background:#ffffff;">
+<td style="text-align:center;">12.
+</td>
+<td style="text-align:left"><a href="/wiki/Werder_Bremen" title="Werder Bremen">Werder Bremen</a> (N)
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;32
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;10
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;5
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;17
+</td>
+<td style="text-align:center;"><span style="visibility:hidden;">0</span>50:62<span style="visibility:hidden;">0</span>
+</td>
+<td style="text-align:center;">−12
+</td>
+<td style="text-align:center;">35
+</td></tr>
+<tr style="background:#ffffff;">
+<td style="text-align:center;">13.
+</td>
+<td style="text-align:left"><a href="/wiki/FC_Augsburg" title="FC Augsburg">FC Augsburg</a>
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;32
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;9
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;7
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;16
+</td>
+<td style="text-align:center;"><span style="visibility:hidden;">0</span>42:58<span style="visibility:hidden;">0</span>
+</td>
+<td style="text-align:center;">−16
+</td>
+<td style="text-align:center;">34
+</td></tr>
+<tr style="background:#ffffff;">
+<td style="text-align:center;">14.
+</td>
+<td style="text-align:left"><a href="/wiki/TSG_1899_Hoffenheim" title="TSG 1899 Hoffenheim">TSG 1899 Hoffenheim</a>
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;32
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;9
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;5
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;18
+</td>
+<td style="text-align:center;"><span style="visibility:hidden;">0</span>43:54<span style="visibility:hidden;">0</span>
+</td>
+<td style="text-align:center;">−11
+</td>
+<td style="text-align:center;">32
+</td></tr>
+<tr style="background:#ffffff;">
+<td style="text-align:center;">15.
+</td>
+<td style="text-align:left"><a href="/wiki/VfL_Bochum" title="VfL Bochum">VfL Bochum</a>
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;32
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;9
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;4
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;19
+</td>
+<td style="text-align:center;"><span style="visibility:hidden;">0</span>36:71<span style="visibility:hidden;">0</span>
+</td>
+<td style="text-align:center;">−35
+</td>
+<td style="text-align:center;">31
+</td></tr>
+<tr style="background:#fffccc;">
+<td style="text-align:center;">16.
+</td>
+<td style="text-align:left"><a href="/wiki/FC_Schalke_04" title="FC Schalke 04">FC Schalke 04</a> (N)
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;32
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;7
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;9
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;16
+</td>
+<td style="text-align:center;"><span style="visibility:hidden;">0</span>31:65<span style="visibility:hidden;">0</span>
+</td>
+<td style="text-align:center;">−34
+</td>
+<td style="text-align:center;">30</td>
+<td>(<span title="gefallen">&#160;<span style="color:#FF0000;position:relative;left:-0.2em;" aria-hidden="true" role="presentation">▼</span></span>)
+</td></tr>
+<tr style="background:#ffcccc;">
+<td style="text-align:center;">17.
+</td>
+<td style="text-align:left"><a href="/wiki/VfB_Stuttgart" title="VfB Stuttgart">VfB Stuttgart</a>
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;32
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;6
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;11
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;15
+</td>
+<td style="text-align:center;"><span style="visibility:hidden;">0</span>40:55<span style="visibility:hidden;">0</span>
+</td>
+<td style="text-align:center;">−15
+</td>
+<td style="text-align:center;">29</td>
+<td rowspan="2"><span title="gefallen">&#160;<span style="color:#FF0000;position:relative;left:-0.2em;" aria-hidden="true" role="presentation">▼</span></span>
+</td></tr>
+<tr style="background:#ffcccc;">
+<td style="text-align:center;">18.
+</td>
+<td style="text-align:left"><a href="/wiki/Hertha_BSC" title="Hertha BSC">Hertha BSC</a> (R)
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;32
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;6
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;7
+</td>
+<td style="text-align:right; padding-right:1em;">&#x2002;19
+</td>
+<td style="text-align:center;"><span style="visibility:hidden;">0</span>39:67<span style="visibility:hidden;">0</span>
+</td>
+<td style="text-align:center;">−28
+</td>
+<td style="text-align:center;">25
+</td></tr>
+<tr>
+<th colspan="10" style="text-align:right; font-size:smaller;">Stand: 14. Mai 2023<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">&#91;6&#93;</a></sup>
+</th></tr></tbody></table>
