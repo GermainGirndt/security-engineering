@@ -1,5 +1,5 @@
 # security-engineering
 
-Gruppennummer: PIB_Di_02 - Pflichtübung - 11:45 Uhr - 3. Stunde
+Group number: PIB_Di_02 - Mandatory Exercise - 11:45 Uhr - 3. Class
 
 Partner: Antonio Metz und Germain Girndt
