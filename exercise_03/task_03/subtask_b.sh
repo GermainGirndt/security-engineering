@@ -7,23 +7,26 @@ open_file() {
 
   case "$file_type" in
     *image*)
-      /usr/local/bin/xv "$file"  # Call the xv program for image files
+      #/usr/local/bin/xv "$file"  # Call the xv program for image files
+      open -a Preview "$file" 
+      echo "1"
       ;;
     *PDF*)
-      xpdf "$file"  # Call the xpdf program for PDF files
+      #xpdf "$file"  # Call the xpdf program for PDF files
+      open -a Preview "$file" 
+      echo "2"
       ;;
     *text*)
       less "$file"  # Call the less program for text files
       ;;
     *OpenDocument*)
-      libreoffice "$file"  # Call the libreoffice program for OpenDocument text files
+      #libreoffice "$file"  # Call the libreoffice program for OpenDocument text files
+      open -a TextEdit  "$file"
+      echo "3"
       ;;
     *)
-       xdg-open $file
-       if [ $? -ne 0 ]; then
-          echo "Format not supported"
-          exit 1
-       fi
+        echo "Format not supported"
+        exit 1
 
   esac
 }
@@ -35,16 +38,6 @@ if [ $# -ne 1 ]; then
 fi
 
 
-# Pass the file to the open_file function
-if [[ "$OSTYPE" == "darwin"* ]]; then
-    echo "Running on macOS"
-    open "$1"
-elif [[ "$OSTYPE" == "linux-gnu" ]]; then
-    echo "Running on Linux"
-    open_file "$1"
-else
-    echo "Unsupported operating system"
-    exit 1
-fi
+open_file "$1"
 
 exit 0
