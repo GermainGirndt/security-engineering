@@ -9,12 +9,10 @@ open_file() {
     *image*)
       #/usr/local/bin/xv "$file"  # Call the xv program for image files
       open -a Preview "$file" 
-      echo "1"
       ;;
     *PDF*)
       #xpdf "$file"  # Call the xpdf program for PDF files
       open -a Preview "$file" 
-      echo "2"
       ;;
     *text*)
       less "$file"  # Call the less program for text files
@@ -22,7 +20,6 @@ open_file() {
     *OpenDocument*)
       #libreoffice "$file"  # Call the libreoffice program for OpenDocument text files
       open -a TextEdit  "$file"
-      echo "3"
       ;;
     *)
         echo "Format not supported"
