@@ -6,9 +6,13 @@ strings file_data | grep -oba datetime #Offset der Zeit
 hexdump -C file_data
 
 gcc -o camera_data camera_data.c
-./camera_data file_data # Fehler, weil die Datei nicht existiert
+echo "Calling the camera_data program with the provided image"
+./camera_data file_data 
 
-./camera_data abc
+echo "Calling the camera_data program with non existent image"
+./camera_data abc # Fehler, weil die Datei nicht existiert
+
+echo "Calling the camera_data program with another image"
 file test.jpg > file_data2
 ./camera_data file_data2 #Programm funktioniert nicht für andere Datei
 
