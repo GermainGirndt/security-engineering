@@ -16,4 +16,5 @@ echo "Calling the camera_data program with another image"
 file test.jpg > file_data2
 ./camera_data file_data2 #Programm funktioniert nicht für andere Datei
 
-strace camera_data file_data
+strace ./camera_data file_data
+#dtruss ./camera_data file_data #for Mac
