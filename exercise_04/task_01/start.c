@@ -20,7 +20,6 @@ int main(int argc, char **argv) {
         exit(EXIT_FAILURE);
     }
 
-
     if (pid == 0) {
         setpriority(PRIO_PROCESS, pid, 19);
         execvp(argv[1], argv+1);
