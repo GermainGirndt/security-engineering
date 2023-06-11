@@ -9,12 +9,12 @@
 #include <limits.h>
 
 // Size of the shared data chunk.
-#define N_SHARED 2
-// #define N_SHARED 2000 // remove comment
+#define N_SHARED 2 // comment by submiting exercise
+// #define N_SHARED 2000 // remove comment by submitting exercise
 
 // Size of the data array.
-#define N_DATA 10
-// #define N_DATA 2000000 // remove comment
+#define N_DATA 10 // comment by submitting exercise
+// #define N_DATA 2000000 // remove comment by submitting exercise
 
 int data[N_DATA];
 
