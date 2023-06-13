@@ -123,15 +123,19 @@ int main()
             printf("\n");
             semop(semid, &consumer_v, 1); // V operation on S1, 1 is the number of operations to be performed.
         }
+
+        // clean ups
+        // (are executed by the parent process (for being sure that they are executed only once)
+        semop(semid, &producer_p, 1);
+        // Cleanup shared memory and semaphores
+        shmdt(shared_memory_pointer); // Detach the shared memory
+        // IPC_RMID is the command to remove the shared memory and semaphore.
+        shmctl(shmid, IPC_RMID, NULL);
+        semctl(semid, 0, IPC_RMID, NULL);
+        semctl(semid, 1, IPC_RMID, NULL);
+
+        printf("Ending process with ID %d\n", pid);
     }
 
-    // Cleanup shared memory and semaphores
-    shmdt(shared_memory_pointer); // Detach the shared memory
-    // IPC_RMID is the command to remove the shared memory and semaphore.
-    shmctl(shmid, IPC_RMID, NULL);
-    semctl(semid, 0, IPC_RMID, NULL);
-    semctl(semid, 1, IPC_RMID, NULL);
-
-    printf("Ending process with ID %d\n", pid);
     return 0;
 }
