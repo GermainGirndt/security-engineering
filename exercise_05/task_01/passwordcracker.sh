@@ -1,10 +1,12 @@
 #! /bin/bash
+input=$1
 while IFS= read -r word
 do
         if [ ${word:0:1} != "-" ]
         then
-                hash=$(openssl passwd -1 -salt ZYXWVUTS $word)
-                if [ "$hash" == "$1" ]
+                salt=${input:3:11}
+                hash=$(openssl passwd -1 -salt $salt $word)
+                if [ "$hash" == "$input" ]
                 then
                         echo "The password is $word."
                         exit 0
