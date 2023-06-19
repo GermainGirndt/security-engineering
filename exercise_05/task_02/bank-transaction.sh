@@ -19,9 +19,10 @@ while true; do
 
     # Read the first line from the TAN file
     first_line=$(head -n 1 $file)
+    sha_256_hashed_tan=$( echo "$tan" | openssl dgst -sha256 )
 
     # If the entered TAN matches the first line, grant access and delete the used TAN
-    if [ "$tan" == "$first_line" ]; then
+    if [ "$sha_256_hashed_tan" == "$first_line" ]; then
         # 'sed -i '1d' $file' deletes the first line from the file
         sed -i '' '1d' $file # -i = in place; 1d = first line
         echo "Access granted"

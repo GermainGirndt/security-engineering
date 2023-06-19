@@ -16,7 +16,9 @@ mkdir -p TAN
 for (( i=0; i<$count; i++ )); do
     number=$(od -An -N4 -i /dev/urandom | sed 's/[^0-9]*//g') # -An = not output address offsets; -N4 = 4 bytes; -i = decimal format 
     rand=$(printf "%06d" $(( number % 1000000 )))
-    echo $rand >> "TAN/${username}.txt"
+    sha_256_hashed_rand=$( echo "$rand" | openssl dgst -sha256 )
+    echo "$rand -> $sha_256_hashed_rand"
+    echo $sha_256_hashed_rand >> "TAN/${username}.txt"
 done
 
 # Print out a success message
