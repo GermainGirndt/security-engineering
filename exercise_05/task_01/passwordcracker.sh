@@ -38,7 +38,8 @@ do
 
                 # Print the counter value in the same line. The "\r" returns the cursor to the beginning of the line.
                 if (( count % 1000 == 0 )); then
-                        echo -ne "Words tested: $count/$total\r"
+                        completion=$(( (count * 100) / total ))
+                        echo -ne "Words tested: $count/$total (${completion}%) \r"
                 fi
 
                 # Increment the counter.
