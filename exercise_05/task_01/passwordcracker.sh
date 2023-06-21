@@ -1,7 +1,10 @@
 #! /bin/bash
 
 # The script expects an argument ($1) which should be the hashed password.
-input=$1 
+input=$1
+
+# Initialize the counter to 0.
+count=0
 
 # Read each line (word) of the file /usr/share/dict/words.
 while IFS= read -r word
@@ -23,6 +26,12 @@ do
                         # Exit the script as the password has been found.
                         exit 0
                 fi
+
+                # Increment the counter.
+                count=$((count+1))
+
+                # Print the counter value in the same line. The "\r" returns the cursor to the beginning of the line.
+                echo -ne "Words tested: $count\r"
         fi
 done < /usr/share/dict/words
 
