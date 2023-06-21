@@ -3,6 +3,8 @@
 # The script expects an argument ($1) which should be the hashed password.
 input=$1
 
+echo "Searching for password with hash $input."
+
 # Initialize the counter to 0.
 count=0
 
@@ -20,6 +22,8 @@ do
 
                 # Hash the current word from the dictionary using the extracted salt.
                 # -1 means md5
+                # 2> /dev/null redirects the error output to /dev/null (the error output is not printed on the screen).
+                #hash=$(openssl passwd -1 -salt $salt $word 2> /dev/null)
                 hash=$(openssl passwd -1 -salt $salt $word)
 
                 # If the newly computed hash and the input hash are same, then we found the password.
@@ -31,11 +35,14 @@ do
                         exit 0
                 fi
 
-                # Increment the counter.
-                count=$((count+1))
 
                 # Print the counter value in the same line. The "\r" returns the cursor to the beginning of the line.
-                echo -ne "Words tested: $count/$total\r"
+                if (( count % 1000 == 0 )); then
+                        echo -ne "Words tested: $count/$total\r"
+                fi
+
+                # Increment the counter.
+                count=$((count+1))
         fi
 done < /usr/share/dict/words
 
