@@ -15,10 +15,11 @@ do
         # Skip words that start with "-"
         if [ ${word:0:1} != "-" ]
         then
-                # Extract the salt from the input (hashed password).
+                # Extract the salt from the input (hashed password) by taking the 3rd to 11th characters of the input.
                 salt=${input:3:11}
 
                 # Hash the current word from the dictionary using the extracted salt.
+                # -1 means md5
                 hash=$(openssl passwd -1 -salt $salt $word)
 
                 # If the newly computed hash and the input hash are same, then we found the password.
