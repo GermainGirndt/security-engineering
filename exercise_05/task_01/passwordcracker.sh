@@ -6,6 +6,9 @@ input=$1
 # Initialize the counter to 0.
 count=0
 
+# Calculate total number of words in the dictionary.
+total=$(wc -l < /usr/share/dict/words)
+
 # Read each line (word) of the file /usr/share/dict/words.
 while IFS= read -r word
 do
@@ -31,7 +34,7 @@ do
                 count=$((count+1))
 
                 # Print the counter value in the same line. The "\r" returns the cursor to the beginning of the line.
-                echo -ne "Words tested: $count\r"
+                echo -ne "Words tested: $count/$total\r"
         fi
 done < /usr/share/dict/words
 
