@@ -23,3 +23,9 @@ done
 
 # Print out a success message
 echo "Generated $count TANs for $username"
+
+
+# ONE TIME PASSWORD
+# willkürliches Passwort für das erste TAN
+# jedes TAN ist von dem letzten TAN abhängig
+# das letzte TAN wird in die Bank abgelegt
